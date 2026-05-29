@@ -1,0 +1,77 @@
+# tex file
+# Flutter/Dartのビルド成果物とキャッシュ
+/.dart_tool/
+/.dev_tools/
+/.packages
+/.pub-cache/
+/.pub/
+/build/
+
+# Webビルド用（確認用にブラウザ実行した場合など）
+.plugin_
+
+# iOS固有の設定ファイル・キャッシュ
+.ios/
+/ios/.generated/
+/ios/Flutter/ephemeral/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Generated.xcconfig
+
+# Xcodeの個人設定・ログ（チーム間で共有するとコンフリクトの原因に）
+**/xcuserdata/
+**/DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# CocoaPods（iOSのライブラリ管理）の成果物
+# ※Podfile.lockはチームでバージョンを揃えるためにGitに含めるのが一般的です
+/ios/Pods/
+
+# VS Codeの設定（個人設定が含まれるため除外）
+# ※チーム共通の推奨拡張機能（.vscode/extensions.json）などを共有したい場合は、
+# settings.jsonだけをピンポイントで弾く設定にしてもOKです
+.vscode/
+
+# OSが自動生成するファイル（Windows / Mac）
+Thumbs.db
+.DS_Store
+
+# 環境変数・秘密鍵
+.env
+.env.*
+*.keystore
+*.jks
+
+# ====================================================================
+# LaTeX 中間生成ファイル・ログ
+# ====================================================================
+# 主要な中間ファイル（これらはコンパイル時に自動生成されます）
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# その他の補助ファイル（図のインクルードや参考文献、索引等で生成される場合あり）
+*.out
+*.lof
+*.lot
+*.bbl
+*.blg
+*.ilm
+*.idx
+*.ind
+*.ilg
+*.pdfsync
+
+# クリーンアップツールのバックアップファイル
+*.bak
+
+# ====================================================================
+# 【重要】成果物（PDF）の扱いについて
+# ====================================================================
+# 最終成果物であるPDFファイルは、Gitに含めない（手元で生成する）のが一般的です。
+# ただし、提出直前の版をチームに共有したい場合はコメントアウトするか、
+# リリース用に別途管理することをおすすめします。
+*.pdf
