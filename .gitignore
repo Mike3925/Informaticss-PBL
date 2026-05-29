@@ -53,7 +53,7 @@ Thumbs.db
 *.fls
 *.fdb_latexmk
 .tex_intermediates
-.dvi
+*.dvi
 
 # その他の補助ファイル（図のインクルードや参考文献、索引等で生成される場合あり）
 *.out
