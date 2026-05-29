@@ -78,7 +78,7 @@ Thumbs.db
 # リリース用に別途管理することをおすすめします。
 
 # レポートフォルダ直下のPDF（成果物）を除外
-/report/*.pdf
+/mid_report/*.pdf
 
 # 【追加】画像フォルダ内のPDFは許可
-!/report/img/**/*.pdf
+!/mid_eport/img/**/*.pdf
