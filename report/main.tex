@@ -1,0 +1,46 @@
+\documentclass[dvipdfmx,a4paper,11pt]{jsarticle}
+
+% 定番パッケージの読み込み
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{url}
+\usepackage{float}
+
+% 図表
+\usepackage{multirow} % 表で複数行にまたがる
+\usepackage{subcaption} % 図を並べて配置
+
+% URL
+\usepackage{url}
+
+% 箇条書き
+\usepackage{enumitem}
+
+% ソースコード配置
+\usepackage{listings}
+\usepackage{jlisting}
+
+\title{基礎工学PBL（情報工学A）中間レポート}
+\author{第X班（メンバー氏名）}
+\date{\today}
+
+\begin{document}
+
+  \maketitle
+  \clearpage
+
+  % ====================================================================
+  % 各章のファイルを読み込む（拡張子 .tex は省略可能）
+  % ====================================================================
+  \input{sections/1_background}
+  \clearpage
+
+  \input{sections/2_survey}
+  \clearpage
+
+  \input{sections/3_design}
+  \clearpage
+
+  \input{sections/4_todo}
+
+\end{document}
